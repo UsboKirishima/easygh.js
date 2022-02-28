@@ -27,7 +27,7 @@ export class User {
                 return response.json();
             })
         } catch (error) {
-            throw new Error('Something wents wrong');
+            throw new Error('Something went wrong');
         }
     }
 }
